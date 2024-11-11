@@ -83,6 +83,6 @@ void testOrderExecution() {
 }
 
 int main() {
-    testOrdersLists();
+    testOrderExecution();
     return 0;
 }
