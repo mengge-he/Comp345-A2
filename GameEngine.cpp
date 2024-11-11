@@ -14,7 +14,7 @@
 
 using namespace std;
 ///
-//g++ GameEngine.cpp GameEngineDriver.cpp Cards.cpp Map.cpp Orders.cpp Player.cpp  CommandProcessor.cpp
+//g++ GameEngine.cpp GameEngineDriver.cpp Cards.cpp Map.cpp Orders.cpp Player.cpp LoggingObserverDriver.cpp CommandProcessor.cpp
 
 /*-------------------- Phases for Part 3 -------------------------*/
 extern const std::string START = "start";
