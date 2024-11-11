@@ -3,7 +3,7 @@
 #include "Player.h"
 #include "LoggingObserver.h"
 
-void testOrdersLists() {
+void testOrderExecution() {
 
     // orderList ordersList;
     //
