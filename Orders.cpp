@@ -135,6 +135,7 @@ bool deployOrder::validate() const {
 
 void deployOrder::execute() {
     if (validate()) {
+        *executed=true;
         std::cout<<"Origin armies in target territory:"<<this->target->getArmies()<<"\n";
        this->player->setNumberOfReinforcement(this->player->getNumberOfReinforcement() - this->armies);
         this->target->setArmies(this->target->getArmies() + this->armies);
