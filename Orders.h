@@ -72,7 +72,6 @@ private:
 
 public:
     deployOrder(int armies, Territory* target, Player* player);
-    deployOrder(const deployOrder& other);
     deployOrder();
     ~deployOrder();
 
@@ -91,7 +90,6 @@ private:
 public:
     bool winOrNot=false;
     advanceOrder(int armirs,Territory* source,Territory* target, Player* player);
-    advanceOrder(const advanceOrder& other);
     ~advanceOrder();
     bool validate() const override;
     void battle(int army1,int army2);
